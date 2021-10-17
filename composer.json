@@ -15,11 +15,22 @@
         {
             "name": "moein.alizadeh",
             "email": "moein.alizade@gmail.com"
+        },
+        {
+            "name": "Soroosh Tanzadeh",
+            "email": "soroosh081@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
             "Ipecompany\\Smsirlaravel\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ipecompany\\Smsirlaravel\\SmsirlaravelServiceProvider"
+            ]
         }
     },
     "require": {
